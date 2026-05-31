@@ -1,28 +1,28 @@
 class Forktrust < Formula
   desc "Safe-by-default git worktree manager for parallel AI coding agents"
   homepage "https://github.com/binkovsky/forktrust"
-  version "0.5.0"
+  version "0.5.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.0/forktrust_0.5.0_darwin_arm64.tar.gz"
-      sha256 "a036896bd81bd79ad7fcf56892b28aac15e2df8e949add0898d61e708024d397"
+      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.1/forktrust_0.5.1_darwin_arm64.tar.gz"
+      sha256 "072156be5dcfc37714915144988cdb3d3131e853ca77e377b6cd8721b08120d2"
     end
     on_intel do
-      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.0/forktrust_0.5.0_darwin_amd64.tar.gz"
-      sha256 "e45ad12c10fe405a3fc6fc943e2f95bb13a26422e8a4119726c24aa8d481976e"
+      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.1/forktrust_0.5.1_darwin_amd64.tar.gz"
+      sha256 "952ccbe474b23b017f93156e16681db72fd2eb52c2974b1e2eeb47219b60918f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.0/forktrust_0.5.0_linux_arm64.tar.gz"
-      sha256 "73a5d92660f3c66eae53df80c75ed02ffe0296e4a682d41ab2b2acccfb2fcd75"
+      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.1/forktrust_0.5.1_linux_arm64.tar.gz"
+      sha256 "f4b51c7c3dea4d86f833c78f61d2d43fe547b67e56719d5df585d960896fa666"
     end
     on_intel do
-      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.0/forktrust_0.5.0_linux_amd64.tar.gz"
-      sha256 "ecc164f303df17e770aea3198ffb13d81daadc9dc2da061243cc2b4c09db6a9c"
+      url "https://github.com/binkovsky/forktrust/releases/download/v0.5.1/forktrust_0.5.1_linux_amd64.tar.gz"
+      sha256 "8ab11c76f621dfb0619f991c12e0824e3fb7be6c554653ee0f99d5e8e6f5f02e"
     end
   end
 
